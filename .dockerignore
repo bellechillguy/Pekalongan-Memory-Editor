@@ -1,0 +1,13 @@
+build/
+build-*/
+.git/
+__pycache__/
+*.pyc
+*.exe
+*.cfg
+*.log
+.env
+.env.*
+docs/
+Citer Pekalongan/
+targets/
