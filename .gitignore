@@ -1,0 +1,42 @@
+# Build artifacts
+/build/
+/build-*/
+/cmake-build-*/
+
+# IDE and editor files
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+.venv/
+venv/
+
+# Debug and runtime output
+*.pdb
+*.log
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local application configuration
+*.cfg
+!*.example.cfg
+
+# Private/proprietary targets
+/Citer Pekalongan/
+/targets/
